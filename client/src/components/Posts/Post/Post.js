@@ -11,7 +11,6 @@ import { deletePost, likePost } from "../../../actions/posts";
 const Post = ({ post, setCurrentId }) => {
   const dispatch = useDispatch();
   const classes = useStyles();
-  console.log(post);
 
   const onDelete = (e) => {
     e.preventDefault();

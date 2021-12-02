@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000/posts";
+const url = "https://mern-memories-app-node.herokuapp.com/posts";
 
 export const fetchPosts = async () => axios.get(url);
 export const createPost = async (post) => axios.post(url, post);
